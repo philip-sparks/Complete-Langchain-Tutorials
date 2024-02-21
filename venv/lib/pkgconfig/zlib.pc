@@ -1,0 +1,13 @@
+prefix=/Users/psparks/Public/GitHub/Complete-Langchain-Tutorials/venv
+exec_prefix=/Users/psparks/Public/GitHub/Complete-Langchain-Tutorials/venv
+libdir=/Users/psparks/Public/GitHub/Complete-Langchain-Tutorials/venv/lib
+sharedlibdir=/Users/psparks/Public/GitHub/Complete-Langchain-Tutorials/venv/lib
+includedir=/Users/psparks/Public/GitHub/Complete-Langchain-Tutorials/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
